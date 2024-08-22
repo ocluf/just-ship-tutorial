@@ -105,7 +105,9 @@
 							type="button"
 							class="btn font-semibold text-md sm:text-lg mt-4 w-full"
 							>Continue with email
-						</button>{/if}
+						</button>
+						<p class="text-red-500">I removed login with email to save on email api costs</p>
+					{/if}
 				</form>
 			{/if}
 		{/if}
